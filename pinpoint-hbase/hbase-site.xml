@@ -1,7 +1,8 @@
 <configuration>
     <property>
         <name>hbase.rootdir</name>
-        <value>file:///home/pinpoint/hbase</value>
+        <!-- <value>file:///home/pinpoint/hbase</value>-->
+        <value>hdfs://172.30.29.220:9000/hbase</value>
     </property>
     <property>
         <name>hbase.cluster.distributed</name>
